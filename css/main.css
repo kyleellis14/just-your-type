@@ -23,3 +23,7 @@ p {
 .border {
   border: solid 4px grey;
 }
+
+svg {
+  fill: #fff;
+}
