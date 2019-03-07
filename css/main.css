@@ -1,5 +1,25 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
+html {
+  background-color: lightblue;
+  font-family: "Slabo 27px", serif;
+  font-family: "Amatic SC", cursive;
+}
+
+h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
+}
+
+p {
+  font-family: "Slabo 27px", serif;
+  color: white;
+}
+
+.max-width {
+  max-width: 320px;
+  display: block;
+  margin: auto;
+}
+
+.border {
+  border: solid 4px grey;
+}
